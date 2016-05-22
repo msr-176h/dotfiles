@@ -1,22 +1,20 @@
 "3.8 (created: 2013/10/13 18:08:56)
 
-source! "C:\\Users\\fujii\\_vimperatorrc.local"
-
 " vim: set ft=vimperator:
 
-"ƒqƒ“ƒgƒ‚[ƒh‚Ì•\¦‚ğ”š‚©‚ç•¶š‚É•ÏX"
+"ãƒ’ãƒ³ãƒˆãƒ¢ãƒ¼ãƒ‰ã®è¡¨ç¤ºã‚’æ•°å­—ã‹ã‚‰æ–‡å­—ã«å¤‰æ›´"
 set hintchars=ifjklasdhguonmerwc
 
-" Backspace & h / l ‚É–ß‚é/i‚Ş‚ğŠ„‚è“–‚Ä
+" Backspace & h / l ã«æˆ»ã‚‹/é€²ã‚€ã‚’å‰²ã‚Šå½“ã¦
 map <BS> <A-Left>
 map h    <A-Left>
 map l    <A-Right>
 
-" j/k ‚Å‚ÌƒXƒNƒ[ƒ‹•‚ğ 1s ‚©‚ç 3s ‚É•ÏX
+" j/k ã§ã®ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«å¹…ã‚’ 1è¡Œ ã‹ã‚‰ 3è¡Œ ã«å¤‰æ›´
 map j 3<C-e>
 map k 3<C-y>
 
-" H/L ‚â © ¨ ‚Åƒ^ƒuˆÚ“®
+" H/L ã‚„ â† â†’ ã§ã‚¿ãƒ–ç§»å‹•
 map H gT
 map L gt
 map <Left>  gT
